@@ -1,0 +1,17 @@
+{
+  "name": "telegram-mcp",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "MCP server for sending Telegram messages via Bot API",
+  "main": "index.js",
+  "bin": {
+    "telegram-mcp": "index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "dotenv": "^17.4.2"
+  }
+}
